@@ -4,7 +4,7 @@ const autoprefixer = require('autoprefixer');
 
 const plugins =
   process.env.NODE_ENV === 'production'
-    ? [tailwindcss, autoprefixer, cssnano]
-    : [tailwindcss, autoprefixer];
+    ? ['postcss-easings', tailwindcss, autoprefixer, cssnano]
+    : ['postcss-easings', tailwindcss, autoprefixer];
 
 module.exports = { plugins };
