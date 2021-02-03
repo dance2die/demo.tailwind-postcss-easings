@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { easings } from 'postcss-easings';
+
 import logo from './logo.svg';
 import './App.css';
 
@@ -16,7 +18,11 @@ function App({}: AppProps) {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img
+          src={logo}
+          className="h-1/3 w-1/3 transition ease-easeInOutBack duration-300 hover:bg-pink-800 transform hover:scale-110"
+          alt="logo"
+        />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>

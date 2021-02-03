@@ -1,11 +1,19 @@
+const { easings } = require('postcss-easings');
+
+console.info('EASYINGS!', { easings });
+
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      transitionTimingFunction: { ...easings },
+    },
   },
   variants: {
-    extend: {},
+    extend: {
+      transitionTimingFunction: ['hover', 'focus'],
+    },
   },
   plugins: [],
-}
+};
