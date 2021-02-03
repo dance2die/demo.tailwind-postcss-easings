@@ -1,17 +1,12 @@
-const { easings } = require('postcss-easings');
-
 module.exports = {
   purge: [],
+  presets: [require('./tailwind-preset.js')],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {
-      transitionTimingFunction: { ...easings },
-    },
+    extend: {},
   },
   variants: {
-    extend: {
-      transitionTimingFunction: ['hover', 'focus'],
-    },
+    extend: {},
   },
   plugins: [],
 };
