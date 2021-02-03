@@ -1,4 +1,10 @@
 {
+  "name": "demo.tailwind-postcss-easings",
+  "description": "Demo for appying postcss-easings for Tailwind CSS",
+  "version": "0.0.1",
+  "author": "Sung M. Kim",
+  "repository": "dance2die/demo.tailwind-postcss-easings",
+  "license": "MIT",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
