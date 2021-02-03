@@ -20,7 +20,7 @@ function App({}: AppProps) {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <p>
+        <p className="bg-pink-50 text-gray-600">
           Page has been open for <code>{count}</code> seconds.
         </p>
         <p>
