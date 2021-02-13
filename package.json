@@ -17,6 +17,7 @@
     "react-dom": "^17.0.0"
   },
   "devDependencies": {
+    "@downwindcss/easings": "^0.0.1-alpha.0",
     "@snowpack/plugin-dotenv": "^2.0.5",
     "@snowpack/plugin-postcss": "^1.1.0",
     "@snowpack/plugin-react-refresh": "^2.4.0",

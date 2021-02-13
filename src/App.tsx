@@ -20,7 +20,7 @@ function App({}: AppProps) {
       <header className="App-header">
         <img
           src={logo}
-          className="h-1/3 w-1/3 transition ease-easeInOutBack duration-300 hover:bg-pink-800 transform hover:scale-110"
+          className="h-1/3 w-1/3 transition ease-easeInCirc duration-300 hover:bg-pink-800 transform hover:scale-110"
           alt="logo"
         />
         <p>
